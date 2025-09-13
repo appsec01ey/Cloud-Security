@@ -80,17 +80,18 @@ A medium-sized company needs to run:
     - Prevent single points of failure.
 
   ```
-  ### 💡 Real-World Example:
-
-> You want to host a high-traffic e-commerce app.
-
-- You deploy 3 VMs, each running a web server.
-- Add a **Load Balancer** to split traffic across VMs.
-- Set up **Auto Scaling**:
-  - Scale to 6 VMs on Black Friday.
-  - Scale down to 2 VMs during off-hours.
-- Attach **managed disks** for storage.
-- Assign **public IPs** for access.
+    ### 💡 Real-World Example:
+  
+  > You want to host a high-traffic e-commerce app.
+  
+  - You deploy 3 VMs, each running a web server.
+  - Add a **Load Balancer** to split traffic across VMs.
+  - Set up **Auto Scaling**:
+    - Scale to 6 VMs on Black Friday.
+    - Scale down to 2 VMs during off-hours.
+  - Attach **managed disks** for storage.
+  - Assign **public IPs** for access.
+  
   ```
  
     
