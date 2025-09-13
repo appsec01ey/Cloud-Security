@@ -3,7 +3,7 @@
 #### Understanding Virtualization:
 
 ##### Before Virtualization:
-- One physical server = One application.
+- One physical server [CPU + RAM + Storage] = One application.
 - Resulted in:
   - Underutilized resources ; High costs ; Inefficiency
 
