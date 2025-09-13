@@ -63,6 +63,7 @@
 - **Zones** are isolated data centers **within a single Azure region**.
 - Each zone has **independent power, networking, and cooling**.
 - Designed for **high availability and fault tolerance**.
+- Some regions might have 0 AZ
 
 #### Why Use Zones?
 - Protect apps from **data center failures**.
