@@ -156,7 +156,23 @@ All go into one resource group: RG-WebApp-Prod.
 
 3. Connect using SSH using Azure CLI > Select Bash > Execute commands 
 
-##### We installed nginx and hosted a static web page (/var/www/html/index.html)
+- ##### We installed nginx and hosted a static web page (/var/www/html/index.html)
 
-##### Now while creating a VM , we can go to Advanced tab > add our commands to install and perform small tasks in custom data section 
+- ##### Now while creating a VM , we can go to Advanced tab > add our commands to install and perform small tasks in custom data section
+
+- ##### Availability Set:
+  - An Availability Set ensures Azure distributes VMs across fault and update domains to protect against hardware failures and maintenance events.
+  - Fault Domain (FD) – Isolates VMs across physical hardware to prevent downtime from rack-level failures.
+  - Update Domain (UD) – Staggers VM reboots during planned maintenance to avoid simultaneous downtime.
+
+  ```
+    Availability Set
+  ├── Fault Domain 1
+  │   ├── Update Domain 1 → VM1
+  │   └── Update Domain 2 → VM2
+  ├── Fault Domain 2
+      ├── Update Domain 1 → VM3
+      └── Update Domain 2 → VM4
+
+  ```
 
