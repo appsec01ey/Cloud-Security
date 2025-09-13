@@ -134,5 +134,22 @@ All go into one resource group: RG-WebApp-Prod.
 7. Review and Create -> Final Validation - Takes a minute or so
 8. Create the VM and Download the private key which will be used to login to VM via ssh
 
-   
-   
+
+---- 
+
+### Connecting to VM 
+
+1. Go to VM -> Select your VM -> Click on  Connect
+2. Connect
+
+   ```
+   Now Connect has 2 options :
+
+   1. Connect (Direct RDP/SSH) : Here the VM gets a public IP and we can connect to the VM via RDP 3389 [Windows] or SSH 22 [Linux]
+      But the VM is publicly exposed to the internet , to prevent this we can use Azure Bastion
+
+   2. Connect via Bastion :
+       Bastion is basically a Jumpbox server that lets you connect to your VM securely over SSL (port 443) through the Azure portal — no public IP required on the VM
+       <img width="1761" height="538" alt="image" src="https://github.com/user-attachments/assets/0dfcfaec-fa60-4947-88be-7b98d979ee54" />
+
+   ```
