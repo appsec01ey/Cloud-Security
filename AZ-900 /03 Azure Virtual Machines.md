@@ -95,3 +95,30 @@ A medium-sized company needs to run:
   ```
  
     
+### Creating a VM in Azure :
+
+1. Login to portal.azure.com > Search for Virtual Machines in search box > Virtual Machine > Create > Virtual Machine
+
+#### Resource Groups : 
+
+- A Resource Group in azure is a logical container for resources such as VMs, databases, storage accounts, and virtual networks.
+- It lets you organize, manage, monitor, and control access to related Azure resources as one unit.
+
+- Key Features :
+  - Logical Grouping: Keep related resources together for easier management.
+  - Role-Based Access Control (RBAC): Apply permissions at the group level instead of individually.
+  - Deployment & Lifecycle: Deploy or delete resources in bulk.
+  - Tagging & Billing: Track cost and usage by grouping.
+
+```
+Example 1: Web Application Environment
+
+You build a web app needing:
+- App Service (website hosting)
+- SQL Database (user data)
+- Storage Account (images/files)
+- Virtual Network (secure communication)
+
+All go into one resource group: RG-WebApp-Prod.
+
+```
