@@ -153,3 +153,5 @@ All go into one resource group: RG-WebApp-Prod.
   
    ```
    <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/0dfcfaec-fa60-4947-88be-7b98d979ee54" />
+
+3. Connect using SSH using Azure CLI > Select Bash > Execute commands 
