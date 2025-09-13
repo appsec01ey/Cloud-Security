@@ -18,8 +18,6 @@
 - **Scalability & Portability**  : VMs can be replicated or moved across environments easily.
 
 ```
-- Real Life Example :
-
 ### 🧩 Real-Life Example: How Virtualization Is Used
 
 #### 🏢 Scenario: Hosting Internal Apps in a Company
@@ -31,8 +29,6 @@ A medium-sized company needs to run:
 - Internal Website
 - File Server
 
----
-
 #### 🔴 Before Virtualization:
 - 5 physical servers (one per app).
 - Problems:
@@ -40,13 +36,9 @@ A medium-sized company needs to run:
   - High hardware and energy costs.
   - Difficult to scale or manage.
 
----
-
 #### ✅ After Virtualization:
 - 1 high-powered physical server + **Hypervisor**
 - 5 **Virtual Machines**, each hosting one app.
-
----
 
 #### 🎯 Benefits:
 - **Better resource usage** (shared CPU/RAM)
@@ -55,8 +47,6 @@ A medium-sized company needs to run:
 - **Isolation** between apps (one crash doesn’t affect others)
 - **Fast backup & recovery** (VM snapshots)
 - **Flexible deployment**
-
----
 
 #### ☁️ Cloud Extension:
 - Instead of on-premises VMs, company moves to cloud (e.g., Azure).
