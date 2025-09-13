@@ -3,7 +3,9 @@
 - Org has multiple servers running diff applications ; all these servers needs to be secured and managed
 - Thus, we have data centers were all this servers are placed together
 
-### Regions and Zones:
+## Regions and Zones:
+
+### Traditional  Approach
 
 - ### Challenges:
 1. **High Latency**:
@@ -36,3 +38,25 @@
    - If an entire region (e.g., London) goes down, the application is still available from another region (e.g., Mumbai).
 
 ---
+
+### Cloud
+
+- Setting up data centers in different regions is **complex and expensive**.
+- Cloud providers (like Azure) solve this by offering **ready-to-use infrastructure**.
+- **Azure** provides **60+ regions** worldwide.
+
+### What Are Regions?
+
+- **Regions** are specific **geographical locations** where cloud resources (VMs, databases, etc.) are hosted.
+
+### Advantages of Using Regions:
+
+- **High Availability**  : Deploying across multiple regions/zones reduces the risk of downtime.
+- **Low Latency**  : Hosting resources closer to users improves app performance.
+- **Global Footprint**  : Easily deploy applications in multiple countries around the world.
+- **Regulatory Compliance**  : Helps meet local data residency laws (e.g., US data must stay within US borders).
+
+
+
+### Zones?
+
