@@ -58,5 +58,25 @@
 
 
 
-### Zones?
+### Availability Zones (AZ)
+
+- **Zones** are isolated data centers **within a single Azure region**.
+- Each zone has **independent power, networking, and cooling**.
+- Designed for **high availability and fault tolerance**.
+
+#### Why Use Zones?
+- Protect apps from **data center failures**.
+- Ensure **redundancy** for critical services.
+
+#### Example:
+- Azure **East US** region has **3 zones**.
+- You can deploy:
+  - Web App in **Zone 1 & Zone 2**
+  - Database replicated in **Zone 1 & Zone 3**
+- If one zone fails, your app stays up and data remains available.
+
+#### Difference from Region:
+- **Region** = geographical area (e.g., East US)
+- **Zone** = separate data centers within that region
+
 
