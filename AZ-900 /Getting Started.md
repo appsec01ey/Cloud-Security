@@ -41,5 +41,5 @@
 ##### 🌍 Global Reach:
 - Deploy applications **worldwide in minutes**.
 
-### 🔧 No Infrastructure Maintenance:
+##### 🔧 No Infrastructure Maintenance:
 - No need to maintain your own data centers.
