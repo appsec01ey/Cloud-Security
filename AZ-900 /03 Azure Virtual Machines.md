@@ -93,11 +93,13 @@ A medium-sized company needs to run:
   - Assign **public IPs** for access.
   
   ```
- 
+
+ ----
     
 ### Creating a VM in Azure :
 
 1. Login to portal.azure.com > Search for Virtual Machines in search box > Virtual Machine > Create > Virtual Machine
+2. Create a Resource Group
 
 #### Resource Groups : 
 
@@ -122,3 +124,11 @@ You build a web app needing:
 All go into one resource group: RG-WebApp-Prod.
 
 ```
+
+3. Add Virtual Machine Name
+4. Select Region and Image [OS] you want
+5. Select Size : Processing power , Memory and Storage
+6. Select Inbound ports :
+   - 22, 80 [443 for https] // Here we need 22 to ssh into the VM and execute commands to install softwares and all
+   - Note : This will allow all IP addresses to access your virtual machine.  This is only recommended for testing.Use the Advanced controls in the Networking tab to create rules to limit inbound traffic to known IP addresses.  
+   
