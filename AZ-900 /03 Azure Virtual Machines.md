@@ -130,5 +130,5 @@ All go into one resource group: RG-WebApp-Prod.
 5. Select Size : Processing power , Memory and Storage
 6. Select Inbound ports :
    - 22, 80 [443 for https] // Here we need 22 to ssh into the VM and execute commands to install softwares and all
-   - Note : This will allow all IP addresses to access your virtual machine.  This is only recommended for testing.Use the Advanced controls in the Networking tab to create rules to limit inbound traffic to known IP addresses.  
+   - **Note** : This will allow all IP addresses to access your virtual machine.This is only recommended for testing.Use the Advanced controls in the Networking tab to create rules to limit inbound traffic to known IP addresses.  
    
