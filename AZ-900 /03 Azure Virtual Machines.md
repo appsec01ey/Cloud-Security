@@ -150,7 +150,6 @@ All go into one resource group: RG-WebApp-Prod.
 
    2. Connect via Bastion :
        Bastion is basically a Jumpbox server that lets you connect to your VM securely over SSL (port 443) through the Azure portal — no public IP required on the VM
-       
-
+  
    ```
-   <img width="1761" height="538" alt="image" src="https://github.com/user-attachments/assets/0dfcfaec-fa60-4947-88be-7b98d979ee54" />
+   <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/0dfcfaec-fa60-4947-88be-7b98d979ee54" />
