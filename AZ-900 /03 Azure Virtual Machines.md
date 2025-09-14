@@ -177,8 +177,8 @@ All go into one resource group: RG-WebApp-Prod.
   ```
 
 - ##### Virtual Machine Scale Set:
-- Allows to create and Manage a group of VMs [supports 1000 VMs per Scale set]
-- Allows Auto Scaling (to add or delete the VMs as required) ; Manual Scaling is also available
-- We can create all VMs with same template or flexible template (custom data ; cloudinit we saw earlier)
-- Allows to add a Load Balancer to distribute the traffic among the VMs
-- Also helps to attain High availability by spreading VMs across Availability Zones or Fault Domains
+  - Allows to create and Manage a group of VMs [supports 1000 VMs per Scale set]
+  - Allows Auto Scaling (to add or delete the VMs as required) ; Manual Scaling is also available
+  - We can create all VMs with same template or flexible template (custom data ; cloudinit we saw earlier)
+  - Allows to add a Load Balancer to distribute the traffic among the VMs
+  - Also helps to attain High availability by spreading VMs across Availability Zones or Fault Domains
