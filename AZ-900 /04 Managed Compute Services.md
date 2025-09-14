@@ -47,4 +47,8 @@
     - Monitoring - Alerts , Metrics , Logs etc
     - API Management (Cors Implementation)
     - Authentication (Add IDP like Google, Microsoft, Apple, OIDC etc
-    - Backups 
+    - Backups
+   
+  - #### Resources :
+    - Azure App Services:
+      - https://medium.com/@devopswithyoge/use-azure-app-service-like-a-pro-part-1-1bf34512ef0d [3 parts]  
