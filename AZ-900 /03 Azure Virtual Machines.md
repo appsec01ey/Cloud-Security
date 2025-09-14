@@ -182,3 +182,15 @@ All go into one resource group: RG-WebApp-Prod.
   - We can create all VMs with same template or flexible template (custom data ; cloudinit we saw earlier)
   - Allows to add a Load Balancer to distribute the traffic among the VMs
   - Also helps to attain High availability by spreading VMs across Availability Zones or Fault Domains
+
+- ##### Static IP:
+  - While creating a VM we can go to Networking > Public IP > Assign a static IP so that when we restart or stop start a VM , the IP remains same
+  - Public IP is charged per IP per hour.
+ 
+- ##### Dedicated Hosts:
+  - Dedicated Hosts in Azure are physical servers that are dedicated to your organization’s workloads. These hosts are not shared with any other customers, unlike the regular Azure VMs, which share underlying physical hardware with other tenants.
+  - Benefits : Isolation , Compliance ,  Licensing Optimization
+
+- ##### Site Recovery:
+  - Azure Site Recovery (ASR) is a disaster recovery (DR) solution offered by Azure to help businesses protect their critical workloads and applications from outages, ensuring business continuity.
+  - Go to VM > Go to Site Recovery > Select Region and replicate your VM in the region 
