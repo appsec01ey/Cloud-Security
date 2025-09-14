@@ -195,5 +195,8 @@ All go into one resource group: RG-WebApp-Prod.
   - Azure Site Recovery (ASR) is a disaster recovery (DR) solution offered by Azure to help businesses protect their critical workloads and applications from outages, ensuring business continuity.
   - Go to VM > Go to Site Recovery > Select Region and replicate your VM in the region
  
+- ##### Activity Log:
+  - For all azure resources we have activity logs . for ex , In VM we can see create , update etc all logs for past 90 days
+ 
 - ##### NOTE :
   - Even if VM is in stop state , you will be charged for storage so DELETE all resources. 
