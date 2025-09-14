@@ -202,4 +202,5 @@ All go into one resource group: RG-WebApp-Prod.
   - Even if VM is in stop state , you will be charged for storage so DELETE all resources. 
 
 - **Overview** :
-  <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/febf7f81-fdb9-45ed-83f2-1d2889593e27" />
+  
+  <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/febf7f81-fdb9-45ed-83f2-1d2889593e27" />
