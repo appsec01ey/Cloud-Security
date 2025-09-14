@@ -24,5 +24,18 @@
     - Azure takes care of OS, Java runtime, scaling, load balancing, and availability automatically. 
 
 
-
-
+- #### Creating and Deploying a web app using Azure App Services
+  - Go to the Azure Portal > Search for "App Services" and click "Create".
+  - Basics tab:
+    - Subscription: Choose your subscription.
+    - Resource Group: Create new or use existing.
+    - Name: This becomes part of your URL, e.g., mywebapp.azurewebsites.net.
+    - Publish: Choose "Code" (or Docker Container).
+    - Runtime stack: e.g., .NET, Node.js, Python, Java. // If you select code u need to choose RT env
+    - Operating System: Windows or Linux.
+    - Region: Choose a region allowed in your subscription (e.g., East US, West Europe). 
+  - Database > Create DB if needed
+  - Container > Choose Nginx in sample
+  - Networking // Keep Default
+  - Monitor+Secure > You can integrate with Defender for Cloud
+  - Review + Create > Create  
