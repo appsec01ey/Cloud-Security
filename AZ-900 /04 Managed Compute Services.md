@@ -38,4 +38,13 @@
   - Container > Choose Nginx in sample
   - Networking // Keep Default
   - Monitor+Secure > You can integrate with Defender for Cloud
-  - Review + Create > Create  
+  - Review + Create > Create
+ 
+  - ##### Key Features post deployment
+    - Custom Domain + SSL
+    - Deployment Slots
+    - Scale Up / Scale Out
+    - Monitoring - Alerts , Metrics , Logs etc
+    - API Management (Cors Implementation)
+    - Authentication (Add IDP like Google, Microsoft, Apple, OIDC etc
+    - Backups 
