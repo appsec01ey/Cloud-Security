@@ -52,3 +52,31 @@
   - #### Resources :
     - Azure App Services:
       - https://medium.com/@devopswithyoge/use-azure-app-service-like-a-pro-part-1-1bf34512ef0d [3 parts]  
+
+  - ### Microservices :
+    - Microservices architecture breaks applications into small, independent services—each can be built with the most suitable programming language and technology stack.
+    <img width="382" height="77" alt="image" src="https://github.com/user-attachments/assets/9e4eaacf-68cf-4cbe-bf46-a3a71a76b664" />
+    - For ex, u can build movieservice in java ,  customerservice in python and so on
+    - This flexibility creates a challenge for deployment because each microservice might have different runtime needs.
+    - Solution : Containers
+
+  - ### Containerization :
+    - Containerization is a way to package an application along with everything it needs to run — like the code, libraries, and settings — into a single unit called a container. This container can then be easily moved and run on any computer or cloud environment without worrying about compatibility issues.
+    - Containers share the host OS kernel but have their own isolated user space i.e One Container doesnt affect other containers , all run independently.
+    - Each container runs in its own lightweight environment, separate from other containers.
+    - Hence, We create Docker Image for each microservice which contains Application Runtime, Application Code and Dependencies.
+   
+  - #### Azure Container Instances :
+    - Go to Container Instances > Create > Choose Config and create a container
+    - Problem : Orchestration of containers ; Solution : Kubernetes / Service Fabric
+
+  - #### AKS Azure Kubernetes Services :
+    - Resources : https://youtu.be/Nyusm9NeyKc
+
+  - ##### Why Container Orchestration?
+    - Just running containers isn’t enough — you need orchestration to handle:
+    - Auto-scaling: Run more/less containers based on demand (e.g., 10 instances of A, 15 of B).
+    - Service Discovery: Avoid hardcoding URLs; orchestrator keeps track of where each service lives.
+    - Load Balancing: Distribute traffic across multiple containers automatically.
+    - Resiliency & Self-Healing: Detect failing instances, replace them automatically.
+    - Zero-Downtime Deployments: Roll out version upgrades without interrupting service.
