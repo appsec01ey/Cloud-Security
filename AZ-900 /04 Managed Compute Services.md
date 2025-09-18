@@ -94,3 +94,8 @@
       - Scales down to zero when idle
      
     - Resources : https://medium.com/@sadoksmine8/azure-functions-building-serverless-applications-a396a026d810
+
+- ### SAAS (Software as a Service) :
+  - SaaS = centrally hosted software delivered over the internet, usually on a subscription basis.
+  - Users access the software through a browser or app without worrying about servers or infrastructure.
+  - User responsibility limited to configuration & usage rest all is managed via Cloud provider
