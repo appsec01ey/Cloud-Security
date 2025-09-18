@@ -99,3 +99,8 @@
   - SaaS = centrally hosted software delivered over the internet, usually on a subscription basis.
   - Users access the software through a browser or app without worrying about servers or infrastructure.
   - User responsibility limited to configuration & usage rest all is managed via Cloud provider
+
+
+- ## Shared Responsibility Model :
+
+ 
