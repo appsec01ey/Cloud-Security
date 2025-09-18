@@ -80,3 +80,17 @@
     - Load Balancing: Distribute traffic across multiple containers automatically.
     - Resiliency & Self-Healing: Detect failing instances, replace them automatically.
     - Zero-Downtime Deployments: Roll out version upgrades without interrupting service.
+
+- ### Serverless :
+  - Serverless is a cloud model where you only write and deploy your code, and the cloud provider automatically takes care of all servers, scaling, and maintenance. You pay only when your code runs, not for idle servers.
+  - Example:
+    - A company wants to resize images uploaded by users. With Azure Functions (serverless), they just write a small function:
+      “When a new image is uploaded to Blob Storage, resize it to 3 different sizes.”
+
+    - Azure automatically:
+      - Triggers the function on each upload
+      - Allocates compute resources only for the execution
+      - Scales up if thousands of images arrive at once
+      - Scales down to zero when idle
+     
+    - Resources : https://medium.com/@sadoksmine8/azure-functions-building-serverless-applications-a396a026d810
