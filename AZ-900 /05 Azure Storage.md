@@ -63,3 +63,12 @@ If primary blob endpoint is: **https://myaccount.blob.core.windows.net** then Se
 - Pairs are designed to:
   - Provide **disaster recovery** and **geo-redundancy**.
   - Minimize downtime during updates (Azure schedules updates so that only one region of a pair is updated at a time).
+
+--- 
+
+| Disk Type      | Type                  | Use Case                                                                 |
+|----------------|---------------------|-------------------------------------------------------------------------|
+| Standard HDD   | Hard Disk Drive      | Backup, non-critical, infrequently accessed data                        |
+| Standard SSD   | Solid State Drive    | Web servers, lightly used enterprise apps, dev/test environments        |
+| Premium SSD    | High-performance SSD | Production or performance-sensitive workloads                           |
+| Ultra Disk     | Ultra-high-performance SSD | IO-intensive workloads, heavy databases (SAP HANA, SQL, Oracle), transaction-heavy apps |
