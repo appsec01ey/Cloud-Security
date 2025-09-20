@@ -10,7 +10,7 @@
 
 ---
 
-## ☁️ Azure Storage Services
+### Azure Storage Services
 
 - **Azure Disks** → Block storage for VMs.
 - **Azure Files** → File shares for cloud/on-prem.
@@ -22,7 +22,7 @@
 
 ---
 
-## 🛡️ Durability & Redundancy
+### Durability & Redundancy
 
 Azure Storage always maintains **at least 3 copies** of your data.  
 You can choose higher redundancy options based on availability needs:
@@ -36,4 +36,24 @@ You can choose higher redundancy options based on availability needs:
 
 ---
 
+#### Azure Storage – Read-Access Redundancy Options
 
+In normal **Geo-Redundant Storage (GRS)** or **Geo-Zone-Redundant Storage (GZRS)**, data is replicated to a secondary region, but **you cannot read or write from the secondary region** until a failover happens.
+
+Sometimes, you may need **read access** to the secondary region **at all times** (e.g., global apps wanting to serve data closer to users).  
+That’s where **Read-Access Redundancy Options** come in.
+
+---
+
+## Options
+
+| Option | Based On | Read Access to Secondary? | Write Access to Secondary? |
+|--------|----------|---------------------------|---------------------------|
+| **RA-GRS** (Read-Access Geo-Redundant Storage) | GRS | ✅ Yes | ❌ No |
+| **RA-GZRS** (Read-Access Geo-Zone-Redundant Storage) | GZRS | ✅ Yes | ❌ No |
+
+---
+
+## URL Pattern to Access Secondary Region
+
+If primary blob endpoint is: **https://myaccount.blob.core.windows.net** then Secondary endpoint will be: **https://myaccount-secondary.blob.core.windows.net**
