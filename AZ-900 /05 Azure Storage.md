@@ -72,3 +72,7 @@ If primary blob endpoint is: **https://myaccount.blob.core.windows.net** then Se
 | Standard SSD   | Solid State Drive    | Web servers, lightly used enterprise apps, dev/test environments        |
 | Premium SSD    | High-performance SSD | Production or performance-sensitive workloads                           |
 | Ultra Disk     | Ultra-high-performance SSD | IO-intensive workloads, heavy databases (SAP HANA, SQL, Oracle), transaction-heavy apps |
+
+---
+
+- Resources : https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction 
