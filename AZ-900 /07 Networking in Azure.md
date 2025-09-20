@@ -65,3 +65,7 @@
   2. Give peering names on both VNets.
   3. Select the second VNet and allow traffic.
 - After peering, VMs in both VNets can talk over **private IPs**.
+
+#### DDOS protection 
+- **Basic**: Always on, free, automatic. **Standard**: Paid, advanced protection, analytics + support.
+- Enable/disable at the **Virtual Network level** in Azure Portal.
