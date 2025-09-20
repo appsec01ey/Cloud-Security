@@ -45,3 +45,15 @@
 
 ---
 
+#### Database Availability & Durability (Concise Notes)
+
+#### Availability
+- Use **multiple standby databases** to serve users if primary fails.  
+- Distribute across **zones and regions** for higher availability.
+
+#### Durability
+- Keep **multiple copies** of data (standbys, snapshots, transaction logs, replicas).  
+- Store across **zones and regions**.  
+- Challenge: Maintaining **data consistency** across copies.
+
+---
