@@ -56,3 +56,10 @@ That’s where **Read-Access Redundancy Options** come in.
 If primary blob endpoint is: **https://myaccount.blob.core.windows.net** then Secondary endpoint will be: **https://myaccount-secondary.blob.core.windows.net**
 
 ---
+
+### Azure Region Pairs
+
+- Azure organizes its global datacenters into **regions** (e.g., East US, West Europe). Each region is linked with another nearby region to form a **region pair**
+- Pairs are designed to:
+  - Provide **disaster recovery** and **geo-redundancy**.
+  - Minimize downtime during updates (Azure schedules updates so that only one region of a pair is updated at a time).
