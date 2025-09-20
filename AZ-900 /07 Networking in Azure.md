@@ -69,3 +69,34 @@
 #### DDOS protection 
 - **Basic**: Always on, free, automatic. **Standard**: Paid, advanced protection, analytics + support.
 - Enable/disable at the **Virtual Network level** in Azure Portal.
+
+---
+
+### Azure Firewall
+- **Azure Firewall** is a **managed, cloud-based network security service**.
+- It acts as a **stateful firewall** — if you allow certain traffic in one direction, return traffic is automatically allowed.
+- It filters and controls **inbound, outbound, and internal (east-west)** traffic for Azure Virtual Networks.
+
+#### Key Benefits
+- **Centralized Control**  
+  - One Azure Firewall instance can manage traffic for **multiple VNets** across **multiple subscriptions**.
+  - Example: 10 VNets + 100 VMs managed via a single firewall.
+
+- **Scalable & Managed**  
+  - Microsoft handles availability, scaling, and updates.
+  - No need to deploy or maintain firewall appliances.
+
+- **Integrated Monitoring**  
+  - Works with **Azure Monitor** to track logs, metrics, and alerts related to firewall activity.
+  - Enables auditing and investigation of traffic patterns.
+
+#### Difference Between Azure Firewall and Web Application Firewall (WAF)
+
+| **Azure Firewall** | **Web Application Firewall (WAF)** |
+|-------------------|-----------------------------------|
+| Protects the entire **network/VNet**. | Protects specific **web apps** behind an App Gateway or Load Balancer. |
+| Filters and allows/blocks **any type of traffic** based on rules. | Shields web apps from **application-layer attacks** (e.g., OWASP Top 10: SQL injection, cross-site scripting). |
+| Can span **multiple VNets/subscriptions**. | Tied to one web app or gateway. |
+
+---
+
