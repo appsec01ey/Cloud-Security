@@ -125,3 +125,34 @@
 | Good for network-wide policies. | Good for VM-level or subnet-level policies. |
 
 ---
+
+### Azure Private Link & Private Endpoint 
+- **Azure Private Link**: Enables **private access** to Azure PaaS services (like Azure SQL Database, Azure Storage, Cosmos DB) over a **private IP** within your VNet.  
+- **Private Endpoint**: A **network interface** with a private IP in your VNet used to connect securely to the Azure service via Private Link.  
+
+#### Why We Need Them  
+- By default, Azure PaaS services (SQL, Storage, Cosmos DB, etc.) have **public IPs**.  
+- Communication between your VM/app and these services happens **over the Internet** if public endpoints are used.  
+- For **security & compliance**, traffic should remain within Microsoft’s internal backbone network — no exposure to the public Internet.  
+
+#### How It Works  
+1. You have a **VM inside a VNet** running a web application.  
+2. The app connects to an **Azure SQL Database (PaaS)**.  
+3. By creating a **Private Endpoint** for the SQL Database:
+   - The SQL Database gets a **private IP** inside your VNet.
+   - Your VM communicates to SQL Database privately using that IP.
+4. All traffic stays on the **Microsoft backbone**, isolated from the Internet.
+
+#### Key Benefits  
+- **Private, secure communication** between your resources and Azure PaaS services.  
+- Eliminates exposure of data to the public Internet.  
+- Works for multiple Azure services: Storage, Cosmos DB, SQL Database, etc.  
+- Centralized management in the **Private Link Center** in Azure Portal.
+  
+#### Provider–Consumer Model  
+- **Provider** = Azure managed service (e.g., Azure SQL Database).  
+- **Consumer** = Your resource in a VNet (e.g., VM/web app).  
+- **Private Link** = Service enabling private connectivity.  
+- **Private Endpoint** = The private IP in your VNet that connects to the provider.
+
+---
