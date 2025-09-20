@@ -100,3 +100,28 @@
 
 ---
 
+### Network Security Groups (NSG) 
+- **NSG** = An **internal firewall** for Azure Virtual Networks.
+- Controls **inbound and outbound traffic** between Azure resources **inside** a VNet.
+- Works at **subnet** or **network interface** level (VM NIC).
+
+#### Key Features
+- Configure **rules** to allow/deny traffic based on:
+  - **Source / Destination IP address**
+  - **Protocol** (TCP/UDP)
+  - **Port numbers**
+- Rules have **priorities**: lower number = higher priority.
+
+#### Typical Use Cases
+- Allow only **HTTP (80)** & **HTTPS (443)** to a web server VM.
+- Allow **DB access only from app servers**, block from others.
+- Restrict **outbound internet traffic** from VMs to specific IPs.
+
+#### NSG vs Azure Firewall
+| **Azure Firewall** | **NSG** |
+|-------------------|---------|
+| External firewall at VNet edge – stops traffic **before entering**. | Internal firewall inside VNet – controls traffic **between subnets/NICs**. |
+| Centralized, stateful, can protect multiple VNets across subscriptions. | Attached at subnet/NIC level; granular control per resource. |
+| Good for network-wide policies. | Good for VM-level or subnet-level policies. |
+
+---
