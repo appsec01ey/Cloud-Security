@@ -57,3 +57,26 @@
 - Challenge: Maintaining **data consistency** across copies.
 
 ---
+
+#### RTO and RPO (Database Recovery Metrics)
+
+#### Definitions
+- **RPO (Recovery Point Objective):** Maximum acceptable period of data loss.  
+- **RTO (Recovery Time Objective):** Maximum acceptable downtime to recover.  
+- Trade-off: Lower RTO/RPO → higher cost; design depends on criticality of data.
+
+#### Example
+- Your are running an app on VM storing data on a persistent storage and taking snapshots every 48 hours and if VM crahes you can bring it back up from snapshot in 45 mins.  
+- WHta is the RTO and RPO when VM crash occurs:  
+  - **RTO:** 45 minutes (time to restore from snapshot)  
+  - **RPO:** 48 hours (data lost since last snapshot)
+ 
+---
+
+#### Examples of Azure Managed Databases
+- **Azure SQL Database** (PaaS SQL Server)
+- **Azure Database for MySQL**
+- **Azure Database for PostgreSQL**
+- **Azure Database for MariaDB**
+- **Azure Cosmos DB** (globally distributed NoSQL)
+- **Azure Managed Instance for Apache Cassandra**
