@@ -85,6 +85,7 @@
 
 ## Tasks : We created a Mysql db and a NoSQL (Mongo DB) DB on azure
 
+---
 #### Azure Cache for Redis
 - A **fully managed, in-memory data store** based on the open-source Redis engine.
 - Provided as a PaaS service by Microsoft Azure.
