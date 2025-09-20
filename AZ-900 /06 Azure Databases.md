@@ -1,12 +1,12 @@
 ### Azure DB
 
-# Database Challenges and Solutions
+### Database Challenges and Solutions
 
-## Scenario
+#### Scenario
 - Database deployed in a data center in London.
 - Application connects to this database.
 
-## Initial Challenges
+#### Initial Challenges
 1. **Database Downtime**  
    - If the data center crashes or server/storage fails, the database is unavailable.
 2. **Data Loss**  
@@ -16,7 +16,7 @@
 
 ---
 
-## Step 1: Take Snapshots
+#### Step 1: Take Snapshots
 - **Action:** Automate database snapshots every hour to another data center.
 - **Impact on Challenges:**
   - **Challenge 1:** Not solved – database still down if primary data center fails.
@@ -26,7 +26,7 @@
 
 ---
 
-## Step 2: Add Transaction Logs
+#### Step 2: Add Transaction Logs
 - **Action:** Record transaction logs and copy them to the second data center.
 - **Impact on Challenges:**
   - **Challenge 1:** Still not solved – database down if primary data center fails.
@@ -36,7 +36,7 @@
 
 ---
 
-## Step 3: Introduce Standby Database with Replication
+#### Step 3: Introduce Standby Database with Replication
 - **Action:**  
   - Add a standby database in the second data center.  
   - Enable synchronous replication: every change in master is immediately reflected in standby.  
@@ -45,3 +45,6 @@
   - **Challenge 1:** Solved – standby database can take over if primary fails.
   - **Challenge 2:** Solved – no data loss due to real-time replication.
   - **Challenge 3:** Solved – snapshots from standby prevent performance impact on master database.
+
+---
+
