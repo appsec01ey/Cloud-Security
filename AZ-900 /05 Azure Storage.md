@@ -43,7 +43,7 @@ In normal **Geo-Redundant Storage (GRS)** or **Geo-Zone-Redundant Storage (GZRS)
 Sometimes, you may need **read access** to the secondary region **at all times** (e.g., global apps wanting to serve data closer to users).  
 That’s where **Read-Access Redundancy Options** come in.
 
-## Options
+#### Options
 
 | Option | Based On | Read Access to Secondary? | Write Access to Secondary? |
 |--------|----------|---------------------------|---------------------------|
