@@ -42,3 +42,26 @@
   - Select the VNet (e.g., `MyFirstVirtualNetwork`).
   - Choose the appropriate **Subnet** (public or private).
 - VM will be assigned to that subnet after creation.
+---
+
+### Azure Virtual Network – IPs & Peering
+
+#### 1. Private & Public IP Addresses
+- **Private IP**: Assigned automatically to every VM in a VNet (free).
+- IP comes from the **subnet’s range** (e.g., 10.0.1.0/24).
+- **Public IP**: Optional; needed for internet access; can be **Dynamic** or **Static** (paid).
+- Best practice: Use private IPs for internal communication.
+
+#### 2. VM Communication in a VNet
+- All VMs in the same VNet can **communicate via private IP**, even across different subnets.
+- Example: VM in Private Subnet ↔ VM in Public Subnet.
+
+#### 3. VNet Peering
+- **Connects two separate VNets** so resources can communicate privately.
+- Works across:
+  - **Same region** or **different regions**.
+- Steps:
+  1. Go to VNet → **Peerings → Add**.
+  2. Give peering names on both VNets.
+  3. Select the second VNet and allow traffic.
+- After peering, VMs in both VNets can talk over **private IPs**.
