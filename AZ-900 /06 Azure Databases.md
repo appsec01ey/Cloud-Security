@@ -45,7 +45,7 @@
 
 ---
 
-#### Database Availability & Durability (Concise Notes)
+#### Database Availability & Durability 
 
 #### Availability
 - Use **multiple standby databases** to serve users if primary fails.  
