@@ -11,9 +11,6 @@
    - If the data center crashes or server/storage fails, the database is unavailable.
 2. **Data Loss**  
    - If the database crashes, data could be permanently lost.
-3. **Performance Issues**  
-   - Taking backups or snapshots can slow down the database.
-
 ---
 
 #### Step 1: Take Snapshots
@@ -21,7 +18,7 @@
 - **Impact on Challenges:**
   - **Challenge 1:** Not solved – database still down if primary data center fails.
   - **Challenge 2:** Partially solved – you can restore from the latest snapshot, but up to 1 hour of data may be lost.
-  - **Challenge 3:** Database performance slows during snapshot creation.
+  - **Challenge 3 (New):** Database performance slows during snapshot creation.
 - **Problem:** Data loss window exists (snapshot frequency) and performance impact remains.
 
 ---
