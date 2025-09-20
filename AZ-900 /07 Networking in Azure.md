@@ -19,4 +19,26 @@
 - Different resources have different access requirements. Example: Load balancer (public), VMs & databases (private).
 - Subnets allow you to **separate public-facing resources** from **private/internal resources**.
 
+### Creating a Virtual Network (VNet) and Assigning a VM
 
+#### 1. Create a Virtual Network
+- Go to **Azure Portal → Search “Virtual Networks” → Create**.
+- Choose a **Resource Group** (e.g., `VirtualNetworkRG`).
+- Name the VNet (e.g., `MyFirstVirtualNetwork`).
+- **Address Space:** Default `10.0.0.0/16` (≈65,000 addresses).
+- Each VNet belongs to **one Azure region**.
+
+#### 2. Configure Subnets
+- VNet can have multiple subnets:
+  - **Private Subnet:** e.g., `10.0.0.0/24` (256 addresses).
+  - **Public Subnet:** e.g., `10.0.1.0/24` (256 addresses).
+- Subnets separate public-facing vs. internal resources.
+- All resources inside the VNet (across subnets) can still communicate privately.
+
+#### 3. Deploy a Virtual Machine into the VNet
+- Go to **Virtual Machines → Create VM**.
+- Choose the **same Resource Group and Region** as the VNet.
+- In **Networking** tab:
+  - Select the VNet (e.g., `MyFirstVirtualNetwork`).
+  - Choose the appropriate **Subnet** (public or private).
+- VM will be assigned to that subnet after creation.
