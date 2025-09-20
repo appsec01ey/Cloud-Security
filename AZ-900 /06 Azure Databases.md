@@ -83,4 +83,13 @@
 
 --- 
 
-### Tasks : We created a Mysql db and a NoSQL (Mongo DB) DB on azure
+## Tasks : We created a Mysql db and a NoSQL (Mongo DB) DB on azure
+
+#### Azure Cache for Redis
+- A **fully managed, in-memory data store** based on the open-source Redis engine.
+- Provided as a PaaS service by Microsoft Azure.
+- Used to **store and retrieve data from memory** for ultra-fast performance.
+- Use Case:
+   - **Caching** frequently accessed data (DB queries, session state, API results).
+   - **Real-time apps** (gaming, chat, leaderboards).
+   - **Rate limiting** or token storage for APIs
