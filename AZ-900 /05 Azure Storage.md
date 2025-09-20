@@ -43,8 +43,6 @@ In normal **Geo-Redundant Storage (GRS)** or **Geo-Zone-Redundant Storage (GZRS)
 Sometimes, you may need **read access** to the secondary region **at all times** (e.g., global apps wanting to serve data closer to users).  
 That’s where **Read-Access Redundancy Options** come in.
 
----
-
 ## Options
 
 | Option | Based On | Read Access to Secondary? | Write Access to Secondary? |
@@ -52,8 +50,9 @@ That’s where **Read-Access Redundancy Options** come in.
 | **RA-GRS** (Read-Access Geo-Redundant Storage) | GRS | ✅ Yes | ❌ No |
 | **RA-GZRS** (Read-Access Geo-Zone-Redundant Storage) | GZRS | ✅ Yes | ❌ No |
 
----
 
-## URL Pattern to Access Secondary Region
+#### URL Pattern to Access Secondary Region
 
 If primary blob endpoint is: **https://myaccount.blob.core.windows.net** then Secondary endpoint will be: **https://myaccount-secondary.blob.core.windows.net**
+
+---
