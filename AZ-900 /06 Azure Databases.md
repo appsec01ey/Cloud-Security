@@ -80,3 +80,7 @@
 - **Azure Database for MariaDB**
 - **Azure Cosmos DB** (globally distributed NoSQL)
 - **Azure Managed Instance for Apache Cassandra**
+
+--- 
+
+### Tasks : We created a Mysql db and a NoSQL (Mongo DB) DB on azure
