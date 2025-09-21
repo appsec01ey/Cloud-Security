@@ -34,3 +34,21 @@
   - Traffic is **not encrypted** because it’s already private.
 
 ---
+
+### Azure Arc
+- **Azure Arc** is Microsoft Azure’s **hybrid and multi-cloud management platform**.
+- It lets you **centrally manage** infrastructure and services running:
+  - On-premises
+  - Other public clouds (AWS, Google Cloud, etc.)
+  - Edge environments
+
+#### Why Do We Need It?
+- Without Azure Arc, managing resources (like Kubernetes clusters) across **multiple environments** is complex.
+- There’s a risk of **inconsistent configurations** and **manual errors**.
+- Azure Arc provides **one central place** in Azure Portal to view and manage all these resources.
+
+#### Capabilities of Azure Arc
+- **Kubernetes**: Centrally manage clusters across Azure, AWS, GCP, and on-premises.
+- **VMs & Servers**: Manage on-premises physical or virtual servers.
+- **Databases**: Manage SQL Server instances and even deploy Azure SQL Database anywhere.
+- **VMware Resources**: Manage VMware environments from Azure.
