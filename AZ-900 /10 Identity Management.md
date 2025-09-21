@@ -88,12 +88,26 @@ It ensures that the **right individuals or applications have the right access to
 
 - RBAC is a key part of **authorization** in Azure. It lets you **assign permissions based on roles**, ensuring that users or applications have the right access to the right resources.
 - Three Parts of a Role Assignment
-  - **Who** – The principal:
-    - User / Group / Service principal (application) / Managed identity  
+  - **Who** – The principal: User / Group / Service principal (application) / Managed identity  
+  - **Role** – The permissions: Built-in roles (e.g., Owner, Contributor, Reader) / Custom roles  
+  - **Scope** – Where the role applies: Management group / Subscription / Resource group / Individual resource
+- **Assign roles at the highest scope possible** (preferably at the management group level).
+  - This ensures: **Centralized access management** , **Simplified permissions** , **Inheritance** of permissions down to subscriptions, resource groups, and resources.
 
-  - **Role** – The permissions:
-    - Built-in roles (e.g., Owner, Contributor, Reader) / Custom roles  
+---
 
-  - **Scope** – Where the role applies:
-    - Management group / Subscription / Resource group / Individual resource  
+### Microsoft Entra Connect (Hybrid Identity)
+
+- When organizations use **Active Directory (AD) on-premises** and **Microsoft Entra ID in Azure**, they often want a **unified identity** for their users across both environments.  
+- **Microsoft Entra Connect** enables this by synchronizing on-premises AD with Microsoft Entra ID.
+
+#### 1. What Microsoft Entra Connect Does
+
+- **Synchronizes user identities** between on-premises Active Directory and Microsoft Entra ID (formerly Azure AD).
+- **Includes passwords** as part of the synchronization.
+- Ensures users have a **single identity** across on-premises and cloud environments.
+- Provides **seamless integration** between on-premises and cloud directories.
+
+---
+
 
