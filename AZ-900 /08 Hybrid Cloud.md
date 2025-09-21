@@ -22,7 +22,7 @@
     - Requires:
       - VPN device/gateway on-premises.
       - Azure VPN Gateway in Azure Virtual Network.
-
+    -  **Resources :** https://medium.com/globant/configure-azure-site-site-vpn-to-on-premise-network-93f7a04eee9b
 #### 2. Azure ExpressRoute :
 - **Private connectivity** between on-premises and Azure Virtual Network.
 - **Does not use the internet**.
