@@ -79,4 +79,22 @@ It ensures that the **right individuals or applications have the right access to
 
 ---
 
-#### Tasks : Here we saw a basic overview of Microsoft Entra ID [ User, Groups, Roles and Administrators, External Identities(Invite external users (e.g., partners, vendors) to access your apps using Google, Facebook, or Microsoft accounts, with controlled access and conditions.) etc.
+### Task : 
+- Here we saw a basic overview of Microsoft Entra ID [ User, Groups, Roles and Administrators, External Identities(Invite external users (e.g., partners, vendors) to access your apps using Google, Facebook, or Microsoft accounts, with controlled access and conditions.) etc.
+
+---
+
+### RBAC 
+
+- RBAC is a key part of **authorization** in Azure. It lets you **assign permissions based on roles**, ensuring that users or applications have the right access to the right resources.
+- Three Parts of a Role Assignment
+
+- 1. **Who** – The principal:
+   - User / Group / Service principal (application) / Managed identity  
+
+- 2. **Role** – The permissions:
+   - Built-in roles (e.g., Owner, Contributor, Reader) / Custom roles  
+
+- 3. **Scope** – Where the role applies:
+   - Management group / Subscription / Resource group / Individual resource  
+
