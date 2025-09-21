@@ -38,4 +38,43 @@ It ensures that the **right individuals or applications have the right access to
 
 --- 
 
+### Microsoft Entra ID
 
+- Microsoft Entra ID is **Azure’s cloud-based identity and access management service**, formerly known as **Azure Active Directory (Azure AD)**.  
+- It helps organizations **manage users, authenticate identities, and control access** to applications and resources in a centralized way.
+
+#### **Key Features**
+
+#### 1. **User and Identity Management**
+- Create and manage users (internal employees, external partners, customers).  
+- Manage non-human identities like applications, bots, or services.  
+- Store and secure user credentials centrally.
+
+#### 2. **Authentication**
+- Verify that a user or application is **who they claim to be**.  
+- Supports multiple authentication methods:
+  - Passwords
+  - Multi-factor authentication (MFA)
+  - External identity providers (Google, Facebook, etc.)
+  - Passwordless options (biometric, hardware keys)
+
+#### 3. **Authorization and Access Control**
+- Define **roles and permissions** for users and applications.  
+- Control access to resources like:
+  - Azure services (VMs, storage, databases)
+  - Enterprise applications
+  - SaaS apps (Salesforce, ServiceNow, etc.)
+- Implement **conditional access policies** based on risk, location, device, or user role.
+
+#### 4. **Single Sign-On (SSO)**
+- Authenticate once and access **multiple applications and services** without repeated logins.  
+- Reduces friction for users and improves security.
+
+#### 5. **Security and Compliance**
+- Centralized identity management reduces risk of credential misuse.  
+- Supports:
+  - Conditional access
+  - Identity protection
+  - Monitoring and auditing for compliance requirements
+
+---
