@@ -110,4 +110,11 @@ It ensures that the **right individuals or applications have the right access to
 
 ---
 
+### Microsoft Entra Domain Services : 
+
+- Resources  : https://youtu.be/ZqOaZ3Oeeko
+
+---
+
+
 
