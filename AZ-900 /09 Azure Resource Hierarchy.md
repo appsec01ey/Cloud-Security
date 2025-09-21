@@ -2,6 +2,11 @@
 
 <img width="685" height="629" alt="image" src="https://github.com/user-attachments/assets/fc328160-1d03-4fa8-b1c4-f72b5d378049" />
 
+- **Tenant:**
+  - In Azure, a Tenant represents a single instance of Azure Active Directory (Azure AD).
+  - It’s essentially your organization’s identity and directory in Microsoft’s cloud.
+  - All users, groups, applications, and subscriptions under your organization live inside this tenant.
+
 - **Management Groups:** Management groups help you manage access, policies, and compliance across multiple subscriptions. Any conditions applied to a management group automatically get inherited by all subscriptions within it, ensuring consistent governance.
   
 - **Subscriptions:** Subscriptions act as a logical boundary that links user accounts to the resources they create. Each subscription comes with limits or quotas on resource usage. Organizations use subscriptions to manage costs, resources, and workloads for different teams, projects, or environments (e.g., Dev, Test, Prod).
