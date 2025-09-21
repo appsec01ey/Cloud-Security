@@ -7,7 +7,7 @@
 | **Hybrid**   | Mix of both           | Mixed                   | Shared responsibility             | On-prem app talking to Azure Cosmos DB           |
 
 ---
-### 1. Azure VPN and Express Route
+### Azure VPN and Express Route
 
 #### 1. Azure VPN :
 - **Encrypted connection** from on-premises to Azure **over the internet**.
