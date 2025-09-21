@@ -88,13 +88,12 @@ It ensures that the **right individuals or applications have the right access to
 
 - RBAC is a key part of **authorization** in Azure. It lets you **assign permissions based on roles**, ensuring that users or applications have the right access to the right resources.
 - Three Parts of a Role Assignment
+  - **Who** – The principal:
+    - User / Group / Service principal (application) / Managed identity  
 
-- **Who** – The principal:
-   - User / Group / Service principal (application) / Managed identity  
+  - **Role** – The permissions:
+    - Built-in roles (e.g., Owner, Contributor, Reader) / Custom roles  
 
-- **Role** – The permissions:
-   - Built-in roles (e.g., Owner, Contributor, Reader) / Custom roles  
-
-- **Scope** – Where the role applies:
-   - Management group / Subscription / Resource group / Individual resource  
+  - **Scope** – Where the role applies:
+    - Management group / Subscription / Resource group / Individual resource  
 
