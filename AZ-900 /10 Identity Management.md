@@ -78,3 +78,5 @@ It ensures that the **right individuals or applications have the right access to
   - Monitoring and auditing for compliance requirements
 
 ---
+
+#### Tasks : Here we saw a basic overview of Microsoft Entra ID [ User, Groups, Roles and Administrators, External Identities(Invite external users (e.g., partners, vendors) to access your apps using Google, Facebook, or Microsoft accounts, with controlled access and conditions.) etc.
