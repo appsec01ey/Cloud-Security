@@ -110,11 +110,30 @@ It ensures that the **right individuals or applications have the right access to
 
 ---
 
-### Microsoft Entra Domain Services : 
-
+### Microsoft Entra Domain Services 
 - Resources  : https://youtu.be/ZqOaZ3Oeeko
 
 ---
 
+### Conditional Access
+- **Conditional Access** is a feature in Microsoft Entra ID (formerly Azure Active Directory) that enables you to control how users access your applications and resources.  
+- It uses **signals** (such as user identity, location, device state, risk level, etc.) to decide **whether to allow, block, or challenge** an access request.
+- Evaluates **conditions** whenever a user or application tries to access a resource. Based on those conditions, **grants**, **blocks**, or **requires additional steps** (like MFA).
+- Enforces policies automatically in real time.
 
+#### Key Signals Used in Conditional Access
+- **User/Group**: Who is trying to access the resource.
+- **Application**: Which app/resource is being accessed.
+- **Location**: From where (IP address, country, etc.).
+- **Device State**: Compliant or non-compliant device, managed or unmanaged.
+- **Risk Level**: User risk or sign-in risk (from Microsoft’s Identity Protection).
 
+#### Common Access Decisions
+- **Allow Access**: If all conditions are met.
+- **Block Access**: If the request violates policy.
+- **Grant Access with Additional Requirements**:
+  - Multi-factor authentication (MFA)
+  - Require compliant device
+  - Require app protection policies
+
+--- 
