@@ -9,7 +9,7 @@
 ---
 ### 1. Azure VPN and Express Route
 
-#### Azure VPN :
+#### 1. Azure VPN :
 - **Encrypted connection** from on-premises to Azure **over the internet**.
 - Suitable for secure connectivity but uses public internet.
 - Two types:
