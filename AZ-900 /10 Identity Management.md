@@ -137,3 +137,7 @@ It ensures that the **right individuals or applications have the right access to
   - Require app protection policies
 
 --- 
+
+### Passwordless Authentication:
+
+- **Resources** : https://www.alifconsulting.com/post/password-less-authentication
