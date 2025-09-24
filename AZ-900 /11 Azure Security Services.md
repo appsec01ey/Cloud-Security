@@ -73,12 +73,12 @@
 #### 5. Zero Trust:
 
 - Core Principles of Zero Trust
-| Principle | Meaning |
-|-----------|---------|
-| **Verify Explicitly** | Use **all available signals** to validate every access request — identity, device, location, time, application, data sensitivity. |
-| **Use Least Privilege Access** | Give users and apps **only the minimal permissions** needed for **only as long as needed**. |
-| **Assume Breach** | Design systems assuming an attacker is already inside; use **defense-in-depth** and **segmentation** to limit movement. |
-
+  
+| **Principle**            | **Meaning**                                                                                                   |
+|--------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Verify Explicitly**     | Use all available signals to validate every access request — identity, device, location, time, application, and data sensitivity. |
+| **Use Least Privilege Access** | Grant users and apps only the minimal permissions required, and only for as long as necessary.                          |
+| **Assume Breach**         | Design systems as if an attacker is already inside; implement defense-in-depth and segmentation to limit lateral movement. |
 
 -  Best Practices :
   - **Apply Zero Trust everywhere**: Users, devices, apps, APIs, microservices, VMs, workloads.  
