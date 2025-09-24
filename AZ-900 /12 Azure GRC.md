@@ -1,4 +1,6 @@
-### Azure Policy Overview
+### GRC
+
+### 1. Azure Policy Overview
 
 - Azure Policy helps ensure that your Azure resources stay compliant with defined rules and standards. It allows you to **create, assign, and manage policies** across multiple subscriptions and resource groups.
 - A set of rules that resources must adhere to. Ensures compliance automatically.
@@ -36,5 +38,8 @@
 - **Other standards:** PCI, HIPAA, UK NHS, etc.
 
 ---
+
+### 2. Azure Blueprints:
+
 
 
