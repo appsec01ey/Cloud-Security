@@ -41,6 +41,23 @@
 
 ---
 
-#### 3. SIEM / SOAR:
+#### 3. CSPM vs SIEM / SOAR:
 
 
+- CSPM – Cloud Security Posture Management : Microsoft Defender for cloud
+  - **Focus:** Detects and fixes **cloud misconfigurations** automatically.  
+  - **Goal:** Ensure your cloud setup follows **best practices** and **compliance rules**.  
+  - **Azure Service:** **Microsoft Defender for Cloud** provides CSPM capabilities.  
+
+- SIEM – Security Information and Event Management  [Sentinel = SIEM + SOAR]
+  - **Focus:** **Collects and analyzes log data** from various sources (cloud, on-prem, hybrid).  
+  - **Goal:** Identify potential **security threats** from patterns in log data.
+  - **Data Storage Options:** **Azure Monitor Log Analytics Workspace** and  **Azure Storage Account** 
+  - **Example Sources:** Azure resources, AWS, GCP, on-prem servers, firewalls.  
+  
+- SOAR – Security Orchestration, Automation, and Response  
+  - **Focus:** **Automates and orchestrates** threat responses across systems.  
+  - **Goal:** Reduce response time and manual effort with **playbooks**. [We Write **playbooks** to automate and orchestrate responses to threats.] 
+  - **Works With:** SIEM tools like Microsoft Sentinel.
+ 
+---
