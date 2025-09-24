@@ -103,4 +103,7 @@
 
 ---
 
+#### Note : Add for Azure Advisor and Azure Monitor
+
+----
 
