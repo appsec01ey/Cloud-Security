@@ -89,3 +89,18 @@
 
 ---
 
+#### 6. Defense in depth:
+
+| **Layer**               | **What It Covers**                                                                 |
+|-------------------------|-----------------------------------------------------------------------------------|
+| **Physical Security**    | Control access to the physical infrastructure (data centers, servers, and hardware). Microsoft handles this for Azure. |
+| **Identity & Access**    | Use strong identity controls like **RBAC**, **SSO**, and **MFA** to protect accounts and manage permissions. |
+| **Perimeter Security**   | Protect the outer edge of your environment with **firewalls**, **DDoS protection**, and traffic filtering. |
+| **Network Security**     | Limit network connectivity. Restrict internet access, and allow only necessary communication between resources. |
+| **Compute Security**     | Secure virtual machines and endpoints. Keep OS/software patched. Use endpoint protection. |
+| **Application Security** | Build security into applications from day one. Follow secure coding practices. Store secrets in **Azure Key Vault**. |
+| **Data Security**        | Encrypt data at rest and in transit. Apply access control and classification to sensitive data. |
+
+---
+
+
