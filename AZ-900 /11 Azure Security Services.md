@@ -1,6 +1,7 @@
 ### Azure Security Services
+---
 
-#### Microsoft Defender for Cloud:
+#### 1. Microsoft Defender for Cloud:
 
 - Microsoft Defender for Cloud is Azure’s **unified security solution** that helps you:
   - Continuously assess and improve your **security posture** (CSPM).
@@ -26,7 +27,7 @@
 
 ---
 
-#### JIT (Just in Time Access) :
+#### 2. JIT (Just in Time Access) :
 
 - The Problem : - When management ports like **RDP (3389)** or **SSH (22)** are left open, they become potential targets for attacks (brute-force, port scanning).  
 - Goal: **Reduce the attack surface** by blocking incoming traffic until access is required.
@@ -39,4 +40,7 @@
   - **Time-bound:** Access is granted for a **limited period** (e.g., 1 hour). After that, ports are automatically closed again.  
 
 ---
+
+#### 3. SIEM / SOAR:
+
 
