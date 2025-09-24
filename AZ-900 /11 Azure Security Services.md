@@ -61,3 +61,32 @@
   - **Works With:** SIEM tools like Microsoft Sentinel.
  
 ---
+
+#### 4. Azure Key Vault:
+
+- A **secure, central place** to store and access **secrets, keys, and certificates** used by cloud apps and services which helps you **protect sensitive information** like API keys, passwords, and cryptographic keys.
+- Provides **access control** and **audit logging** for all secrets.
+-  What Can You Store : Keys (Generate a keypair ), Secrets, Certificates
+
+---
+
+#### 5. Zero Trust:
+
+- Core Principles of Zero Trust
+| Principle | Meaning |
+|-----------|---------|
+| **Verify Explicitly** | Use **all available signals** to validate every access request — identity, device, location, time, application, data sensitivity. |
+| **Use Least Privilege Access** | Give users and apps **only the minimal permissions** needed for **only as long as needed**. |
+| **Assume Breach** | Design systems assuming an attacker is already inside; use **defense-in-depth** and **segmentation** to limit movement. |
+
+-  Best Practices :
+  - **Apply Zero Trust everywhere**: Users, devices, apps, APIs, microservices, VMs, workloads.  
+  - **Encrypt all communications** (even within internal networks).  
+  - **Continuously monitor and log** activity to detect anomalies fast.  
+  - **Regularly update and patch** devices and applications.  
+  - **Automate threat detection and response** using tools like Microsoft Sentinel or Defender for Cloud.
+
+---
+
+
+--- 
