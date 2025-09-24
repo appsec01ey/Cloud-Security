@@ -79,6 +79,7 @@
 | **Use Least Privilege Access** | Give users and apps **only the minimal permissions** needed for **only as long as needed**. |
 | **Assume Breach** | Design systems assuming an attacker is already inside; use **defense-in-depth** and **segmentation** to limit movement. |
 
+
 -  Best Practices :
   - **Apply Zero Trust everywhere**: Users, devices, apps, APIs, microservices, VMs, workloads.  
   - **Encrypt all communications** (even within internal networks).  
