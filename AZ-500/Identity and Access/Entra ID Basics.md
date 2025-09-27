@@ -36,3 +36,10 @@
 | **User Access Administrator** | Manage who has access to what (but not manage the resources themselves)  |
 
     - Roles can be assigned at management group > sub > resource grp > resources
+
+| Assignment State  | Description                                               | Example                                                   |
+|------------------|-----------------------------------------------------------|-----------------------------------------------------------|
+| **Eligible**      | User can request/activate the role but doesn't have it yet | Bob is eligible for “Owner” role but must activate it first|
+| **Active**        | User currently has the role and can use it                | Alice activated “Contributor” for 4 hours                 |
+| **Permanent Active** | Role is always on for the user with no expiry           | Global admin with constant access                        |
+| **Time-bound Active** | Role is on for a defined duration, then expires        | Security engineer gets “Privileged Role Admin” for 2 hours|
