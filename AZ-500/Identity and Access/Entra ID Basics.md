@@ -35,4 +35,4 @@
 | **Reader**                  | View resources only                                                       |
 | **User Access Administrator** | Manage who has access to what (but not manage the resources themselves)  |
 
-  - Roles can be assigned at management group > sub > resource grp > resources
+    - Roles can be assigned at management group > sub > resource grp > resources
