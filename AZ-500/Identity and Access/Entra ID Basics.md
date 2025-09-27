@@ -28,7 +28,7 @@
   - **What** = Actions they can perform (read, write, delete, manage).
   - **Which resources** = Scope of access (management group, subscription, resource group, or specific resource).
 
-  | Role                        | What It Does                                                              |
+| Role                        | What It Does                                                              |
 |-----------------------------|---------------------------------------------------------------------------|
 | **Owner**                   | Full access to everything, including managing access                      |
 | **Contributor**             | Create & manage resources but **cannot** grant access                     |
